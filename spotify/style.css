@@ -1,0 +1,335 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #b3b3b3;
+    font-family: "Montserrat", serif;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    height: 64px;
+    width: 1200px;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo-div{
+    height: 72px;
+    width:72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .logo-div .logo{
+    background: url(./Spotify_Primary_Logo_RGB_White.png);
+    background-size:cover;
+    height: 32px;
+    width: 32px;
+}
+nav .home-div{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: #1f1f1f;
+    margin-top: 2px;
+    z-index: 1;
+}
+nav .home-div .home-logo{
+    background: url(./icons8-home-48.png);
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+    margin: 10px 12px;
+}
+nav .search-bar{
+    height: 48px;
+    width: 423.46px;
+    background-color: #1f1f1f;
+    border-radius: 25px;
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 10px;
+}
+nav .search-bar .search-logo{
+    position: relative;
+    background: url(./icons8-search-30.png);
+    background-size: cover;
+    height: 32px;
+    width: 32px;
+}
+nav .s{
+    margin: 10px;
+    font-weight: 800;
+}
+nav .bar{
+    font-size: xx-large;
+}
+nav .btn{
+    height: 48px;
+    width: 108px;
+    padding: 8px 25px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    font-weight: 1000;
+    border: none;
+    font-size: 1.1em;
+}
+nav .search-bar .browser-logo{
+    background-image: url(./icons8-fast-cart-48.png);
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+}
+nav .search-bar .ctrl{
+    border: 1px solid;
+    line-height: 30px;
+    opacity: 0;
+}
+nav .search-bar span{
+    font-size: 2em;
+}
+nav .install{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -1.5px;
+}
+nav .sign{
+    letter-spacing: -1.5px;
+}
+nav .install .install-logo{
+    margin: 2px;
+    background: url(./icons8-below-64.png);
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+}
+.home {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.home .library,.artist{
+    background-color: #1f1f1f;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.home .library{
+    height: 500px;
+    width: 350px;
+    display: flex;
+    padding: 10px;
+    background-color: #1f1f1f82;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: auto;
+}
+.home .library .yourlib{
+    margin-right: 150px;
+    padding-top: 5px;
+}
+.home .library .lib-logo{
+    background: url(./icons8-books-64.png);
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+}
+.home .library .add-logo{
+    background: url(./icons8-add-32.png);
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+}
+.home .artist{
+    height: 500px;
+    width: 790px;
+    padding: 10px;
+    display: grid;
+    overflow:auto;
+    margin: 5px;
+}
+.home .library .create-playlist,.create-podcast{
+    height: 120px;
+    width: 290px;
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.home .library .create-playlist h4,h5,button,.create-podcast h4,h5,button{
+    color: white;
+}
+.home .library .create-playlist button,.create-podcast button{
+    background-color: white;
+    padding: 5px;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 150px;
+    font-weight: 1000;
+}
+.home .artist .popular-artist,.popular-album,.Featured-Chart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right:15px;
+}
+.home .artist .popular-artist h3,.popular-album h3,.Featured-Chart h3{
+    width: 90%;
+    color: white;
+    font-weight:bolder;
+}
+.home .artist .popular-artist .preetam,.sachin-jigar,.a-r-rahman,.arijit-singh,.Who,.YJHD,.Aashiqui-2,.glory,.top-50-us,.Top-50-g,.Top-songs-ind,.top-songs-global{
+    height: 270px;
+    width: 185px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.home .artist .popular-artist .preetam h4,h6,.sachin-jigar h4,h6,.a-r-rahman h4,h6,.arijit-singh h4,h6{
+    margin-top: 10px;
+}
+.home .artist .popular-artist .preetam h4,.sachin-jigar h4,.a-r-rahman h4,.arijit-singh h4 .popular-album .Who h4,.YJHD,.Aashiqui-2,.glory{
+    color: white;
+}
+.home .artist .popular-album .Who h4,.YJHD h4,.Aashiqui-2 h4,.glory h4{
+    color: white;
+}
+.home .artist .popular-artist .img ,.popular-album .img,.Featured-Chart .img{
+    height: 180px;
+    width: 180px;
+    /* border-radius: 50%; */
+    margin: 10px;
+}
+.home .artist .popular-artist .img{
+    border-radius: 50%;
+}
+.home .artist .popular-artist .preetam .img{
+    background: url(./pritam.jpg);
+    background-size: cover;
+}
+.home .artist .popular-artist .arijit-singh .img{
+    background: url(./5cd68368c20b3eaab1babede7d392db6.jpg);
+    background-size: cover;
+}
+.home .artist .popular-artist .a-r-rahman .img{
+    background: url(./a\ r\ rehman.jpg);
+    background-size: cover;
+}
+.home .artist .popular-artist .sachin-jigar .img{
+    background: url(./sachin.jpg);
+    background-size: cover;
+}
+.home .popular-album .glory .img{
+    background: url(./glory.jpg);
+    background-size: cover;
+}
+.home .popular-album .Aashiqui-2 .img{
+    background: url(./aashiqui-2.jpg);
+    background-size: cover;
+}
+.home .popular-album .YJHD .img{
+    background: url(./yjhd.jpg);
+    background-size: cover;
+}
+.home .popular-album .Who .img{
+    background: url(./muse\ Whoe.jpg);
+    background-size: cover;
+}
+.home .artist .Featured-Chart .top-songs-global .img{
+    background: url(./card5img.jpeg);
+    background-size: cover;
+}
+.home .artist .Featured-Chart .Top-songs-ind .img{
+    background: url(./card6img.jpeg);
+    background-size: cover;
+}
+.home .artist .Featured-Chart .Top-50-g .img{
+    background: url(./card1img.jpeg);
+    background-size: cover;
+}
+.home .artist .Featured-Chart .top-50-us .img{
+    background: url(./top10.jpg);
+    background-size: cover;
+}
+.home .artist .Featured-Chart p{
+    font-size: 0.9em;
+    margin-left: 8px;
+}
+.artist-footer{
+    margin: 3rem;
+    display: flex;
+    justify-content: space-around;
+    line-height: 2rem;
+    margin-left: 10px;
+}
+.artist-footer .company,.Communities ,.Spotify-Plans,.Useful-links{
+    display: flex;
+    flex-direction: column;
+}
+.artist-footer .company h4,.Communities h4,.Spotify-Plans h4,.Useful-links h4{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.artist-footer .insta ,.twitter,.facebook{
+    height: 30px;
+    width: 30px;
+}
+.artist-footer .insta{
+    background: url(./insta.png);
+    background-size: contain;
+}
+.artist-footer .facebook{
+    background: url(./fabook.png);
+    background-size: contain;
+}
+.artist-footer .twitter{
+    background: url(./social.png);
+    background-size: contain;
+}
+.line{
+    display: block;
+    margin: 20px;
+    height: 2px;
+    width: 700px;
+    background-color: #353535;
+}
+nav .home-div:hover{
+    transform: scale(1.1);
+    background-color: #414141;
+}
+nav .search-bar:hover{
+    background-color: #414141;
+}
+nav .search-bar .ctrl:hover{
+    opacity: 1;
+}
+nav .s:hover,.install div:hover,.sign:hover{
+    color: white;
+    transform: scale(1.1);
+}
+nav .btn:hover{
+    background-color: #d8d8d8;
+    transform: scale(1.1);
+    transition: 0.1s ease-in;
+}
+.home .library button:hover{
+    background-color: #d8d8d8;
+    transform: scale(1.1);
+    transition: 0.1s ease-in;
+}
